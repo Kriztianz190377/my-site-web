@@ -7,3 +7,6 @@
 # react-simple-typewriter
 
 Remember to rebuild node modules with ```npm install```
+
+
+```https://castanedadeveloper.com/```
