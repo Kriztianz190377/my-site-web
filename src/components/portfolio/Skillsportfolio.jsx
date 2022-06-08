@@ -31,39 +31,6 @@ const Skillsportfolio = () => {
           <div className="lg:w-[30%] md:w-[40%] rounded-xl hover:bg-[#0d1f3a] duration-500 m-3 ">
             <Skillportafolio
               title={"React.Js"}
-              subtitle={"Sass/GulpJs"}
-              src={FV}
-              alt={"Festival/Sass"}
-              websitename={"https://festival.castanedadeveloper.com"}
-              href={"https://github.com/Kriztianz190377/FestivalReact"}
-              icon={<BsGithub />}
-            />
-          </div>
-          <div className="lg:w-[30%] md:w-[40%] rounded-xl hover:bg-[#0d1f3a] duration-500 m-3 ">
-            <Skillportafolio
-              title={"JavaScript"}
-              subtitle={"Sass/Html"}
-              src={AW}
-              alt={"Weather App"}
-              websitename={"https://weather-report.castanedadeveloper.com"}
-              href={"https://github.com/Kriztianz190377/SassWeatherApi"}
-              icon={<BsGithub />}
-            />
-          </div>
-          <div className="lg:w-[30%] md:w-[40%] rounded-xl hover:bg-[#0d1f3a] duration-500 m-3 ">
-            <Skillportafolio
-              title={"JavaScript"}
-              subtitle={"Sass/Html"}
-              src={SS}
-              alt={"Song Search"}
-              websitename={"https://lyrics.castanedadeveloper.com"}
-              href={"https://github.com/Kriztianz190377/lyrics"}
-              icon={<BsGithub />}
-            />
-          </div>
-          <div className="lg:w-[30%] md:w-[40%] rounded-xl hover:bg-[#0d1f3a] duration-500 m-3 ">
-            <Skillportafolio
-              title={"React.Js"}
               subtitle={"Vite/Tailwind Css"}
               src={VT}
               alt={"Veterinary"}
@@ -91,6 +58,39 @@ const Skillsportfolio = () => {
               alt={"Veterinary"}
               websitename={"https://kriztianz190377.github.io/Gif-react/"}
               href={"https://github.com/Kriztianz190377/Gif-react"}
+              icon={<BsGithub />}
+            />
+          </div>
+          <div className="lg:w-[30%] md:w-[40%] rounded-xl hover:bg-[#0d1f3a] duration-500 m-3 ">
+            <Skillportafolio
+              title={"React.Js"}
+              subtitle={"Sass/GulpJs"}
+              src={FV}
+              alt={"Festival/Sass"}
+              websitename={"https://festival.castanedadeveloper.com"}
+              href={"https://github.com/Kriztianz190377/FestivalReact"}
+              icon={<BsGithub />}
+            />
+          </div>
+          <div className="lg:w-[30%] md:w-[40%] rounded-xl hover:bg-[#0d1f3a] duration-500 m-3 ">
+            <Skillportafolio
+              title={"JavaScript"}
+              subtitle={"Sass/Html"}
+              src={AW}
+              alt={"Weather App"}
+              websitename={"https://weather-report.castanedadeveloper.com"}
+              href={"https://github.com/Kriztianz190377/SassWeatherApi"}
+              icon={<BsGithub />}
+            />
+          </div>
+          <div className="lg:w-[30%] md:w-[40%] rounded-xl hover:bg-[#0d1f3a] duration-500 m-3 ">
+            <Skillportafolio
+              title={"JavaScript"}
+              subtitle={"Sass/Html"}
+              src={SS}
+              alt={"Song Search"}
+              websitename={"https://lyrics.castanedadeveloper.com"}
+              href={"https://github.com/Kriztianz190377/lyrics"}
               icon={<BsGithub />}
             />
           </div>

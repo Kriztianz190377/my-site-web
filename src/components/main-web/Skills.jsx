@@ -20,10 +20,10 @@ const Skills = () => {
   const handlePortfolio = () => {
     setPortfolio(true);
   };
-  console.log(portfolio);
+  
 
   return (
-    //TODO Ameliorer le code avec un component
+    
     <div
       name="skills"
       className="w-full pt-40 pb-20 bg-[#0a192f] text-gray-300"
