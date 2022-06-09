@@ -15,7 +15,7 @@ const Footer = () => {
             <a href="https://castanedadeveloper.com/">Castanedadeveloper.com</a>
           </span>
         </p>
-        <p>&nbsp;| &#9400; 2021 all rights reserved.</p>
+        <p>&nbsp;| &#9400; 2022 June all rights reserved.</p>
 
       </div>
     </div>

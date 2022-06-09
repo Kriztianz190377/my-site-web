@@ -12,18 +12,15 @@ import SASS from "../../assets/sass.webp";
 import GULP from "../../assets/gulp.webp";
 import GH from "../../assets/github.png";
 import TAILWIND from "../../assets/tailwind.png";
-import {Navigate} from "react-router-dom";
-
+import { Navigate } from "react-router-dom";
 
 const Skills = () => {
   const [portfolio, setPortfolio] = useState(false);
   const handlePortfolio = () => {
     setPortfolio(true);
   };
-  
 
   return (
-    
     <div
       name="skills"
       className="w-full pt-40 pb-20 bg-[#0a192f] text-gray-300"
@@ -43,22 +40,21 @@ const Skills = () => {
           className="w-full grid grid-cols-2 sm:grid-cols-4  gap-4 text-center py-8"
         >
           {!portfolio ? (
-           <>
-              <Skill src={HTML} name={"HTML"} />
-              <Skill src={CSS} name={"CSS3"} />
+            <>
+              <Skill src={REACT} name={"React.Js"} />
               <Skill src={JS} name={"JavaScript"} />
               <Skill src={JQ} name={"jQuery"} />
-              <Skill src={REACT} name={"React.Js"} />
               <Skill src={RES} name={"Responsive Design"} />
-              <Skill src={BS} name={"Bootstrap-5 "} />
               <Skill src={SASS} name={"SASS"} />
-              <Skill src={GULP} name={"Gulp.js"} />
-              <Skill src={GH} name={"GitHub"} />
               <Skill src={TAILWIND} name={"Tailwind"} />
-           </>
-           
+              <Skill src={BS} name={"Bootstrap-5 "} />
+              <Skill src={GH} name={"GitHub"} />
+              <Skill src={GULP} name={"Gulp.js"} />
+              <Skill src={HTML} name={"HTML"} />
+              <Skill src={CSS} name={"CSS3"} />
+            </>
           ) : (
-            <Navigate to ="/portfolio" />
+            <Navigate to="/portfolio" />
           )}
         </button>
       </div>

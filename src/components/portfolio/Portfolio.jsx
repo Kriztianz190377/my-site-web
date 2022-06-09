@@ -6,11 +6,11 @@ import Footer from "../main-web/Footer";
 
 const Portfolio = () => {
   return (
-    <>
+    <div className="w-full h-auto ">
       <NavPortfolio />
       <Skillsportfolio />
-         <Footer />
-    </>
+      <Footer />
+    </div>
   );
 };
 

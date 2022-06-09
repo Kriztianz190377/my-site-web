@@ -13,10 +13,12 @@ import BS from "../../assets/bootstrap-r.png";
 import CA from "../../assets/calculator-r.png";
 
 const Skillsportfolio = () => {
+
+
   return (
     <div
       name="skills"
-      className="w-full border-red-900  bg-[#0a192f] mt-[100px] text-gray-300 h-full"
+      className="w-full border-red-900  bg-[#0a192f] mt-[100px] text-gray-300 "
     >
       {/* Container */}
       <div className="max-w-[1000px]  mx-auto p-4 flex flex-col  w-full h-full">

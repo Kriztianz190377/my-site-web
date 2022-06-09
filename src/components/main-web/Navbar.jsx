@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsPersonLinesFill } from "react-icons/bs";
+import CVpdf from '../../assets/ChristianC-CV.pdf'
 
 import LG from "../../assets/LogoCl.png";
 
@@ -122,8 +123,11 @@ const Navbar = () => {
           <li
             className="w-[160px] pr-1 h-[60px] flex justify-between cursor-pointer ml-[-100px] hover:ml-[0px]
                         duration-300  items-center bg-[#6fc2b0]"
-          >            
-            <Link to="contact" smooth={true} duration={500}              
+          >
+            <Link
+              to="contact"
+              smooth={true}
+              duration={500}
               className=" flex justify-between font-bold items-center w-full to-gray-300"
             >
               Email <HiOutlineMail size={30} />
@@ -134,7 +138,8 @@ const Navbar = () => {
                         duration-300  items-center bg-{#565f69}"
           >
             <a
-              href="/"
+              href={CVpdf}
+              download
               className=" flex justify-between font-bold items-center w-full to-gray-300"
             >
               Resume <BsPersonLinesFill size={30} />
