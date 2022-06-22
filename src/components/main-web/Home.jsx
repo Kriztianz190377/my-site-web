@@ -14,10 +14,12 @@ const Home = () => {
   return (
     <div
       name="home"
-      className=" mt-[100px] w-full h-screen mt-[100px} bg-[#0a192f] pt-[100px] "
-    >
+      className="w-full h-screen bg-[#0a192f]  pt-[100px]">
+
       {/* Container */}
-      <div className="max-w-[1000px] text-white mx-auto  flex flex-col justify-center h-full">
+      <div
+        className="max-w-[1000px] text-white md:mx-auto  flex flex-col justify-center h-full"
+      >
         <p className="text-pink-600 pb-4">Hi, my name is</p>
         <h1 className="text-4xl sm:text-7xl font-bold pb-4 text-[#ccd6f6]">
           Christian Castaneda

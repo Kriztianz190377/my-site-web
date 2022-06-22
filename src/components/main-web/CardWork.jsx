@@ -4,7 +4,7 @@ import CVpdf from "../../assets/ChristianC-CV.pdf";
 const CardWork = ({ href, img, titleH5, paragraphP, buttonBtn }) => {
   return (
     <div
-      className="max-w-sm mx-auto p-3 
+      className="max-w-sm mx-auto p-3
     mt-3 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 
     dark:border-gray-700 hover:bg-gray-500 duration-500 hover:text-white group "
     >

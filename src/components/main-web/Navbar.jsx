@@ -14,9 +14,9 @@ const Navbar = () => {
 
   return (
     <div
-      className="w-full h-[100px] bg-[#0a192f] mt-[-100px] 
+      className="w-full h-[100px] bg-[#0a192f]  
       fixed flex  flex-row px-10 justify-between items-center
-      text-gray-300 first-letter"
+      text-gray-300 uppercase"
     >
       <a
         className=" text-8xl font-extrabold  text-pink-600"

@@ -8,16 +8,21 @@ const About = () => {
       className=" md:w-full h-screen bg-[#0a192f] text-gray-300"
     >
       <div className="flex flex-col justify-center items-center w-full h-full">
-        <div className="max-w-[1000px] w-full grid grid-cols-2 gap-12">
+        <div className="max-w-[1000px] w-full grid md:grid-cols-2 gap-12">
           <div className="sm:text-right flex justify-center items-end pb-8 pl-4">
             <p className="text-4xl font-bold inline border-b-4 border-pink-600">
               About
             </p>
           </div>
+
           <div className="flex justify-center">
-            <div className="bg-[#4db5ff] rounded-3xl   w-[260px] ">
+            <div
+              className="bg-[#4db5ff] rounded-3xl w-[150px] h-[200px] 
+            md:w-[200px] md:h-[250px] "
+            >
               <img
-                className="me-img rounded-3xl cursor-pointer rotate-12 h-[250px] hover:rotate-0 duration-500 mb-4"
+                className="me-img rounded-3xl cursor-pointer rotate-12 h-[200px] hover:rotate-0 duration-500 mb-4 
+                md:w-[200px] md:h-[250px] "
                 src={ME}
                 alt=""
                 sizes=""
