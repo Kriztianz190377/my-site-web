@@ -33,7 +33,7 @@ const Skillsportfolio = () => {
           <div className="lg:w-[30%] md:w-[40%] rounded-xl hover:bg-[#0d1f3a] duration-500 m-3 ">
             <Skillportafolio
               title={"React.Js"}
-              subtitle={"Vite/Tailwind Css"}
+              subtitle={"@Vite/Tailwind Css"}
               src={VT}
               alt={"Veterinary"}
               websitename={"https://veterinary.castanedadeveloper.com/"}
@@ -44,11 +44,22 @@ const Skillsportfolio = () => {
           <div className="lg:w-[30%] md:w-[40%] rounded-xl hover:bg-[#0d1f3a] duration-500 m-3 ">
             <Skillportafolio
               title={"React.Js"}
-              subtitle={"Vite/@emotion"}
+              subtitle={"@Vite/Styled-Components"}
               src={CM}
               alt={"Veterinary"}
               websitename={"https://crypto.castanedadeveloper.com/"}
               href={"https://github.com/Kriztianz190377/Crypto"}
+              icon={<BsGithub />}
+            />
+          </div>
+          <div className="lg:w-[30%] md:w-[40%] rounded-xl hover:bg-[#0d1f3a] duration-500 m-3 ">
+            <Skillportafolio
+              title={"React.Js"}
+              subtitle={"TailwindCss"}
+              src={CM}
+              alt={"Veterinary"}
+              websitename={"https://crypto.castanedadeveloper.com/"}
+              href={"https://github.com/Kriztianz190377/Crypto-TailwindCss"}
               icon={<BsGithub />}
             />
           </div>
