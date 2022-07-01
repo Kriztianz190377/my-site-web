@@ -98,8 +98,7 @@ const Navbar = () => {
         <ul>
           <li
             className="w-[160px] pr-1 h-[60px] flex justify-between ml-[-100px] hover:ml-[0px]
-                        duration-300  items-center bg-blue-600"
-          >
+                        duration-300  items-center bg-blue-600"          >
             <a
               href="https://www.linkedin.com/in/christian-castaneda-cclweb/"
               target="_blank"

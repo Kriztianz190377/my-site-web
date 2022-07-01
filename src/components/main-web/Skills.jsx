@@ -12,7 +12,7 @@ import SASS from "../../assets/sass.webp";
 import GULP from "../../assets/gulp.webp";
 import GH from "../../assets/github.png";
 import TAILWIND from "../../assets/tailwind.png";
-import { Navigate } from "react-router-dom";
+import { Navigate,Link } from "react-router-dom";
 
 const Skills = () => {
   const [portfolio, setPortfolio] = useState(false);
@@ -54,7 +54,7 @@ const Skills = () => {
               <Skill src={CSS} name={"CSS3"} />
             </>
           ) : (
-            <Navigate to="/portfolio" />
+            <Navigate to='/portfolio' />
           )}
         </button>
       </div>

@@ -7,20 +7,15 @@ import SS from "../../assets/songSearch-r.png";
 import VT from "../../assets/vterinary-r.png";
 import CM from "../../assets/cryptocurrencies-r.png";
 import GA from "../../assets/gifApp-r.png";
-
+import CT from "../../assets/crypto-tailwimd.png";
 import TA from "../../assets/topActress-r.png";
 import BS from "../../assets/bootstrap-r.png";
 import CA from "../../assets/calculator-r.png";
 
 const Skillsportfolio = () => {
-
-
   return (
-    <div
-      name="skills"
-      className="w-full border-red-900  bg-[#0a192f] mt-[100px] text-gray-300 "
-    >
-      {/* Container */}
+    <div className="w-full border-red-900  bg-[#0a192f] mt-[100px] text-gray-300 ">
+
       <div className="max-w-[1000px]  mx-auto p-4 flex flex-col  w-full h-full">
         <div>
           <p className="text-4xl font-bold inline border-b-4 border-pink-600  ">
@@ -30,6 +25,7 @@ const Skillsportfolio = () => {
         </div>
 
         <div className=" flex flex-row flex-wrap justify-center items-center  text-center py-8">
+          
           <div className="lg:w-[30%] md:w-[40%] rounded-xl hover:bg-[#0d1f3a] duration-500 m-3 ">
             <Skillportafolio
               title={"React.Js"}
@@ -41,13 +37,14 @@ const Skillsportfolio = () => {
               icon={<BsGithub />}
             />
           </div>
+          
           <div className="lg:w-[30%] md:w-[40%] rounded-xl hover:bg-[#0d1f3a] duration-500 m-3 ">
             <Skillportafolio
               title={"React.Js"}
               subtitle={"@Vite/Styled-Components"}
               src={CM}
               alt={"Veterinary"}
-              websitename={"https://crypto.castanedadeveloper.com/"}
+              websitename={"https://cryptocoin.castanedadeveloper.com"}
               href={"https://github.com/Kriztianz190377/Crypto"}
               icon={<BsGithub />}
             />
@@ -56,7 +53,7 @@ const Skillsportfolio = () => {
             <Skillportafolio
               title={"React.Js"}
               subtitle={"TailwindCss"}
-              src={CM}
+              src={CT}
               alt={"Veterinary"}
               websitename={"https://crypto.castanedadeveloper.com/"}
               href={"https://github.com/Kriztianz190377/Crypto-TailwindCss"}

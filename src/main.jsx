@@ -8,13 +8,12 @@ import "./index.css";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <BrowserRouter>
-    <Routes>
-      <Route path="/" element={ <App />} />
-      <Route path="/portfolio" element={ <Portfolio />} />
-
-
-    </Routes>
-
+      <Routes>
+        <Route path="/" element={<App />} />
+      </Routes>
+      <Routes>
+        <Route path="portfolio" element={<Portfolio />} />
+      </Routes>
     </BrowserRouter>
   </React.StrictMode>
 );

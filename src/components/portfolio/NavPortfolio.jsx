@@ -14,11 +14,10 @@ const NavPortfolio = () => {
 
   return (
     <div
+      name="portfolio"
       className="w-full h-[100px] bg-[#0a192f] mt-[-100px] fixed flex justify-between items-center 
     px-4  text-gray-300"
     >
-      {/* className="w-full h-[100px] bg-[#0a192f] mt-[-100px] fixed flex flex-row
-      px-10 justify-between items-center text-gray-300 first-letter" */}
       <a
         className=" text-8xl font-extrabold  text-pink-600"
         href="https://castanedadeveloper.com/"
@@ -50,7 +49,7 @@ const NavPortfolio = () => {
       <div className="hidden lg:flex fixed flex-col top-[35%] left-0  ">
         <ul>
           <li
-            className="w-[160px] h-[60px] flex justify-between ml-[-100px] hover:ml-[0px]
+            className="w-[160px] h-[60px] pr-1 flex justify-between ml-[-100px] hover:ml-[0px]
                         duration-300  items-center bg-blue-600"
           >
             <a
@@ -61,7 +60,7 @@ const NavPortfolio = () => {
             </a>
           </li>
           <li
-            className="w-[160px] h-[60px] flex justify-between ml-[-100px] hover:ml-[0px]
+            className="w-[160px] h-[60px] pr-1 flex justify-between ml-[-100px] hover:ml-[0px]
                         duration-300  items-center bg-[#333333]"
           >
             <a
@@ -72,7 +71,7 @@ const NavPortfolio = () => {
             </a>
           </li>
           <li
-            className="w-[160px] h-[60px] flex justify-between ml-[-100px] hover:ml-[0px]
+            className="w-[160px] h-[60px] pr-1 flex justify-between ml-[-100px] hover:ml-[0px]
                         duration-300  items-center bg-[#6fc2b0]"
           >
             <a
@@ -83,7 +82,7 @@ const NavPortfolio = () => {
             </a>
           </li>
           <li
-            className="w-[160px] h-[60px] flex justify-between ml-[-100px] hover:ml-[0px]
+            className="w-[160px] h-[60px] pr-1 flex justify-between ml-[-100px] hover:ml-[0px]
                         duration-300  items-center bg-{#565f69}"
           >
             <a

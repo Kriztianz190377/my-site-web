@@ -6,7 +6,7 @@ import Footer from "../main-web/Footer";
 
 const Portfolio = () => {
   return (
-    <div className="w-full h-auto ">
+    <div className="w-full h-auto focus">
       <NavPortfolio />
       <Skillsportfolio />
       <Footer />
