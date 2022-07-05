@@ -16,19 +16,19 @@ const About = () => {
           </div>
 
           <div className="flex justify-center">
-            <div
+             <div
               className="bg-[#4db5ff] rounded-3xl w-[150px] h-[200px] 
             md:w-[200px] md:h-[250px] "
             >
               <img
-                className="me-img rounded-3xl cursor-pointer rotate-12 h-[200px] hover:rotate-0 duration-500 mb-4 
+                className="me-img rounded-3xl  rotate-12 h-[200px] hover:rotate-0 duration-500 mb-4 
                 md:w-[200px] md:h-[250px] "
                 src={ME}
                 alt=""
                 sizes=""
                 srcSet=""
               />
-            </div>
+            </div> 
           </div>
         </div>
 
