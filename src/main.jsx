@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import App from "./App";
-import Portfolio from "./components/portfolio/Portfolio";
+
 import "./index.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
@@ -10,10 +10,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<App />} />
-      </Routes>
-      <Routes>
-        <Route path="portfolio" element={<Portfolio />} />
-      </Routes>
+      </Routes>      
     </BrowserRouter>
   </React.StrictMode>
 );

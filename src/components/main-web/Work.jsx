@@ -3,7 +3,7 @@ import B2X from "../../assets/b2xCentarl-r.png";
 import TECH from "../../assets/techalliague-r.png";
 import CardWork from "./CardWork";
 
-const Work = () => {
+export const Work = () => {
   return (
     <div name="work" className="w-full  pt-40 pb-20 bg-[#0a192f] text-gray-300">
       {/* Container */}
@@ -44,4 +44,4 @@ const Work = () => {
   );
 };
 
-export default Work;
+

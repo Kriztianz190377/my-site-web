@@ -1,7 +1,7 @@
 import React from "react";
 import ME from "../../assets/castaneda2.jpg";
 
-const About = () => {
+export const About = () => {
   return (
     <div
       name="about"
@@ -49,4 +49,4 @@ const About = () => {
   );
 };
 
-export default About;
+

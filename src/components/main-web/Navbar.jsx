@@ -3,12 +3,10 @@ import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsPersonLinesFill } from "react-icons/bs";
 import CVpdf from '../../assets/ChristianC-CV.pdf'
-
 import LG from "../../assets/LogoCl.png";
-
 import { Link } from "react-scroll";
 
-const Navbar = () => {
+export const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
 
@@ -150,4 +148,3 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;

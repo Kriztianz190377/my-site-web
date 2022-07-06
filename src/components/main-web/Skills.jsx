@@ -1,5 +1,4 @@
 import Skill from "./Skill";
-import React, { useState } from "react";
 
 import HTML from "../../assets/html.png";
 import CSS from "../../assets/css.png";
@@ -12,14 +11,9 @@ import SASS from "../../assets/sass.webp";
 import GULP from "../../assets/gulp.webp";
 import GH from "../../assets/github.png";
 import TAILWIND from "../../assets/tailwind.png";
-import { Navigate,Link } from "react-router-dom";
+import { Navigate, Link } from "react-router-dom";
 
-const Skills = () => {
-  const [portfolio, setPortfolio] = useState(false);
-  const handlePortfolio = () => {
-    setPortfolio(true);
-  };
-
+export const Skills = () => {
   return (
     <div
       name="skills"
@@ -34,32 +28,26 @@ const Skills = () => {
           <p className="py-4">// These are the technologie I've worked with </p>
         </div>
 
-        <button
-          onClick={handlePortfolio}
-          href=""
-          className="w-full grid grid-cols-2 sm:grid-cols-4  gap-4 text-center py-8"
+        <a
+          href="https://portfolio.castanedadeveloper.com/"
+          className="w-full grid grid-cols-2 sm:grid-cols-4  
+          gap-4 text-center py-8"
         >
-          {!portfolio ? (
-            <>
-              <Skill src={REACT} name={"React.Js"} />
-              <Skill src={JS} name={"JavaScript"} />
-              <Skill src={JQ} name={"jQuery"} />
-              <Skill src={RES} name={"Responsive Design"} />
-              <Skill src={SASS} name={"SASS"} />
-              <Skill src={TAILWIND} name={"Tailwind"} />
-              <Skill src={BS} name={"Bootstrap-5 "} />
-              <Skill src={GH} name={"GitHub"} />
-              <Skill src={GULP} name={"Gulp.js"} />
-              <Skill src={HTML} name={"HTML"} />
-              <Skill src={CSS} name={"CSS3"} />
-            </>
-          ) : (
-            <Navigate to='/portfolio' />
-          )}
-        </button>
+          <>
+            <Skill src={REACT} name={"React.Js"} />
+            <Skill src={JS} name={"JavaScript"} />
+            <Skill src={JQ} name={"jQuery"} />
+            <Skill src={RES} name={"Responsive Design"} />
+            <Skill src={SASS} name={"SASS"} />
+            <Skill src={TAILWIND} name={"Tailwind"} />
+            <Skill src={BS} name={"Bootstrap-5 "} />
+            <Skill src={GH} name={"GitHub"} />
+            <Skill src={GULP} name={"Gulp.js"} />
+            <Skill src={HTML} name={"HTML"} />
+            <Skill src={CSS} name={"CSS3"} />
+          </>
+        </a>
       </div>
     </div>
   );
 };
-
-export default Skills;

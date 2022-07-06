@@ -4,7 +4,7 @@ import { BsGithub, BsWhatsapp } from "react-icons/bs";
 import React, { useRef } from 'react';
 import emailjs from "@emailjs/browser";
 
-const Contact = () => {
+export const Contact = () => {
     const form = useRef();
     const sendEmail = (e) => {
       e.preventDefault();
@@ -141,4 +141,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+ 

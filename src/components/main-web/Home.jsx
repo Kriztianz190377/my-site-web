@@ -4,7 +4,7 @@ import { Link } from "react-scroll";
 import { useTypewriter} from 'react-simple-typewriter';
   
 
-const Home = () => {
+export const Home = () => {
   const { text } = useTypewriter({
     words: ["Frontend", "Developer", "Frontend Developer"],
     loop: true,
@@ -51,4 +51,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+
