@@ -37,10 +37,7 @@ export const Contact = () => {
           <p className="text-4xl font-bold inline border-b-4 border-pink-600  ">
             Contact
           </p>
-          <p className="py-4">
-            //Submit the form below or shoot me an email -
-            christian@castanedadeveloper.com
-          </p>
+          <p className="py-4">// Contact me using the following form</p>
         </div>
 
         <div className="grid md:grid-cols-3 grid-row-2">
@@ -52,7 +49,7 @@ export const Contact = () => {
             >
               <MdOutlineEmail className="my-2 text-4xl" />
               <h5>Email</h5>
-              <h4> kriztianz@hotmail.com</h4>
+
               <a
                 href="mailto:kriztianz@hotmail.com "
                 target="_blank"
@@ -70,7 +67,7 @@ export const Contact = () => {
             >
               <BsGithub className="my-2 text-4xl" />
               <h5>GitHub</h5>
-              <h4>Kriztianz190377</h4>
+
               <a
                 href="https://github.com/Kriztianz190377"
                 target="_blank"
@@ -86,8 +83,8 @@ export const Contact = () => {
               rounded-md text-center p-2 font-bold"
             >
               <BsWhatsapp className="my-2 text-4xl" />
-              <h5>Wassap</h5>
-              <h4> +1 (438) 396-6910</h4>
+              <h5>WhatsApp</h5>
+
               <a
                 href="https://wa.me/+14383966910"
                 target="_blank"

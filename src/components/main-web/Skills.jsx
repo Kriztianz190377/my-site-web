@@ -1,5 +1,4 @@
 import Skill from "./Skill";
-
 import HTML from "../../assets/html.png";
 import CSS from "../../assets/css.png";
 import JS from "../../assets/javascript.png";
@@ -11,7 +10,7 @@ import SASS from "../../assets/sass.webp";
 import GULP from "../../assets/gulp.webp";
 import GH from "../../assets/github.png";
 import TAILWIND from "../../assets/tailwind.png";
-import { Navigate, Link } from "react-router-dom";
+
 
 export const Skills = () => {
   return (
