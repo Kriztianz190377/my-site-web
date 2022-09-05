@@ -14,8 +14,7 @@ export const Home = () => {
   return (
     <div
       name="home"
-      className="w-full h-screen bg-[#0a192f]  pt-[100px]">
-
+      className="w-full pt-[20rem] bg-[#0a192f] ">
       {/* Container */}
       <div
         className="max-w-[1000px] text-white md:mx-auto  flex flex-col justify-center h-full"

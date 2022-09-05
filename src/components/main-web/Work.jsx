@@ -5,7 +5,10 @@ import CardWork from "./CardWork";
 
 export const Work = () => {
   return (
-    <div name="work" className="w-full  pt-40 pb-20 bg-[#0a192f] text-gray-300">
+    <div
+      name="work"
+      className="w-full  pt-[18rem]  bg-[#0a192f] text-gray-300"
+    >
       {/* Container */}
       <div className="max-w-[1000px]  mx-auto  flex flex-col justify-center w-full h-full">
         <div className="pb-8">
@@ -18,7 +21,7 @@ export const Work = () => {
         <div className="w-full grid grid-cols-1 sm:grid-cols-2 ">
           <div>
             <CardWork
-              href={"https://www.tech-alliage.com/"}
+              href={'https://www.tech-alliage.com/'}
               img={TECH}
               titleH5="3-Shape Designer  "
               paragraphP="With CAD/CAM (Computer-Aided Design /
@@ -29,7 +32,7 @@ export const Work = () => {
           </div>
           <div>
             <CardWork
-              href={"https://b2xcentral.com"}
+              href={'https://b2xcentral.com'}
               img={B2X}
               titleH5="Frontend developer"
               paragraphP="Connect, share and participate in

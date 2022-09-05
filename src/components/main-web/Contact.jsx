@@ -29,7 +29,7 @@ export const Contact = () => {
   return (
     <div
       name="contact"
-      className="w-full  pt-20 pb-20 bg-[#0a192f] text-gray-300"
+      className="w-full  pt-[18rem] bg-[#0a192f] text-gray-300"
     >
       {/* Container */}
       <div className="max-w-[1000px]  mx-auto p-4 flex flex-col justify-center w-full h-full">

@@ -16,7 +16,7 @@ export const Skills = () => {
   return (
     <div
       name="skills"
-      className="w-full pt-40 pb-20 bg-[#0a192f] text-gray-300"
+      className="w-full pt-[18rem]  bg-[#0a192f] text-gray-300"
     >
       {/* Container */}
       <div className="max-w-[1000px]  mx-auto p-4 flex flex-col justify-center w-full h-full">
@@ -33,17 +33,17 @@ export const Skills = () => {
           gap-4 text-center py-8"
         >
           <>
-            <Skill src={REACT} name={"React.Js"} />
-            <Skill src={JS} name={"JavaScript"} />
-            <Skill src={JQ} name={"jQuery"} />
-            <Skill src={RES} name={"Responsive Design"} />
-            <Skill src={SASS} name={"SASS"} />
-            <Skill src={TAILWIND} name={"Tailwind"} />
-            <Skill src={BS} name={"Bootstrap-5 "} />
-            <Skill src={GH} name={"GitHub"} />
-            <Skill src={GULP} name={"Gulp.js"} />
-            <Skill src={HTML} name={"HTML"} />
-            <Skill src={CSS} name={"CSS3"} />
+            <Skill src={REACT} name={'React.Js'} />
+            <Skill src={JS} name={'JavaScript'} />
+            <Skill src={JQ} name={'jQuery'} />
+            <Skill src={RES} name={'Responsive Design'} />
+            <Skill src={SASS} name={'SASS'} />
+            <Skill src={TAILWIND} name={'Tailwind'} />
+            <Skill src={BS} name={'Bootstrap-5 '} />
+            <Skill src={GH} name={'GitHub'} />
+            <Skill src={GULP} name={'Gulp.js'} />
+            <Skill src={HTML} name={'HTML'} />
+            <Skill src={CSS} name={'CSS3'} />
           </>
         </a>
       </div>
